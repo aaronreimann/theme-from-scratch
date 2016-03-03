@@ -10,18 +10,15 @@
 
 	<div class="row">
 
-		<div class="small-12 medium-6 large-3">
+		<div class="columns small-12 small-text-center medium-2 large-3">
 
-			This is my site
+			<?php echo bloginfo( 'name' ); ?>
 
 		</div>
 
-		<div class="small-12 medium-6">
+		<div class="columns small-12 medium-10 large-9">
 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas lobort.
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas lobort
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas lobort
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas lobort
+			<?php wp_nav_menu( 'header_menu' ); ?>
 
 		</div>
 
